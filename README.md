@@ -136,7 +136,7 @@ ZT421や詳細については下記リンクを参考にすること。
 - リボンの通り道（PHDの下を通るように）
   
 詳細な手順は下記リンクを参考にすること。  
-[Loading the Ribbon](https://docs.zebra.com/content/tcm/us/en/printers/industrial/zt411-zt421-industrial-printer-user-guide/printer-setup-/loading-the-ribbon.html)
+[リボンのセット](https://docs.zebra.com/jp/ja/printers/industrial/zt411-zt421-industrial-printer-user-guide/c-zt4x1-setup/t-zt4x1-loading-the-ribbon.html)
 
 </br>
 
