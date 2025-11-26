@@ -216,6 +216,8 @@ ZT421や詳細については下記リンクを参考にすること。
 
 ## 4. サプライの装填（ラベル）
 
+ラベルが蛇行しないように下記3点を確認すること。  
+
 ![](./picture-ZT411R-config/Media-Load-01.png)
 
 </br>
@@ -223,9 +225,8 @@ ZT421や詳細については下記リンクを参考にすること。
 
 
 ## 5. ラベルセンサーの調整
-</hr>
 
-ラベルセンサーをラベル形状、タイプに合わせて、ポジショニングすること。
+ラベルには様々な形状や大きさのものがある。ラベルセンサーをラベルの形状、タイプに合わせて、**適切にポジショニング**すること。
 <br>
 
 <img src="./picture-ZT411R-config/Label-Sensor-01.png" width="70%" height=70%>
@@ -233,20 +234,31 @@ ZT421や詳細については下記リンクを参考にすること。
 </br>
 
 
-
-## 5. ラベルセンサーの調整
-<hr>
-
 - ラベルセンサーはLED点灯位置を頼りに設定すること。
 - 詳細な手順は下記リンクを参考にすること。   
-[Adjusting the Sensor Position](https://docs.zebra.com/content/tcm/us/en/printers/industrial/zt411-zt421-industrial-printer-user-guide/printer-configuration-and-adjustment/adjusting-the-sensor-position.html)
+[用紙センサー位置の調整](https://docs.zebra.com/jp/ja/printers/industrial/zt411-zt421-industrial-printer-user-guide/c-zt4x1-configuration/t-zt4x1-adjusting-the-sensor-position.html)
+
 <br>
+</br>
 
-
-
-| センサーの稼働方法| センサー位置の確認方法|
-|-|-|
-|<img src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-media_sensor_closeup.svg/jcr:content/renditions/original" align="right" width="800%">| <img src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-media_sensor_adjust_in.svg/jcr:content/renditions/original" align="right" width="100%">|
+<table>
+  <thead>
+    <tr>
+      <th>センサーの稼働方法</th>
+      <th>センサー位置の確認方法</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <img src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-media_sensor_closeup.svg/jcr:content/renditions/original" align="right" width="800%">
+      </td>
+      <td>
+        <img src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-media_sensor_adjust_in.svg/jcr:content/renditions/original" align="right" width="100%">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -260,25 +272,33 @@ ZT421や詳細については下記リンクを参考にすること。
 
 
 1. プリンタとPCをUSBケーブルで接続。
-2. Zebra Setup Utilities for Windows（以降ZSU） を使用して適切な設定ファイルを送付する。
+1. Zebra Setup Utilities for Windows（以降ZSU） を使用して適切な設定ファイルを送付する。
+   ```
    ZSU > [プリンタツールを開く] > [設定] > [ファイルを送る] > "任意のファイルを選択" > [送信]
-3. 用紙キャリブレーションが完了するまで待つ。
-4. キャリブレーションの正常性を確認する。
+   ```
+
+
+   | ファイル名    | 用途 |
+   |-|-|
+   | SET_DTBR.ZPL	| 設定用（感熱、黒マーク）	| 
+   | SET_DTGP.ZPL	| 設定用（感熱、ギャップ）	| 
+   | SET_TTBR.ZPL	| 設定用（熱転写、黒マーク）	| 
+   | SET_TTGP.ZPL	| 設定用（熱転写、ギャップ）	| 
+
+   <br>
+
+1. 用紙キャリブレーションが完了するまで待つ。
+1. キャリブレーションの正常性を確認する。
 
 <br>
 
-**※ 用紙キャリブレーションができない場合はマニュアルキャリブレーションを実施すること。**
-
-
-
+**※ 用紙キャリブレーションができない場合はマニュアルキャリブレーションを実施すること。**  
 [参考：Youtube: ZT411 Printer: Ribbon and Media Calibration /Zebra](https://www.youtube.com/watch?v=-80-NPebwGA)
-
-
-
+</br>
 </br>
 
+
 ## 7. 基本設定（RFID）
-<hr>
 
 <img src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-rfid-calibrate.png/jcr:content/renditions/original" width="50%">
 
@@ -287,18 +307,17 @@ ZT421や詳細については下記リンクを参考にすること。
 3. RFID キャリブレーションが完了するまで待つ。
 4. エラーが発生していないことを確認する。
 
-### RFID キャリブレーションが失敗するときは下記を確認すること。
+### RFID キャリブレーションが失敗するときは。。。。
 1. 用紙キャリブレーションが適切か
-2. 印字圧力・用紙設定が適切か
-4. RFIDキャリブレーション中に用紙詰まりが発生していないか
-<br>
+1. 用紙設定が適切か
+1. RFIDキャリブレーション中に用紙詰まりが発生していないか
 
-[参考：RFID Menu](https://docs.zebra.com/content/tcm/us/en/printers/industrial/zt411-zt421-industrial-printer-user-guide/printer-configuration-and-adjustment/changing-printer-settings/user-menus/print-menu.html)
+
+[参考：RFID メニュー](https://docs.zebra.com/jp/ja/printers/industrial/zt411-zt421-industrial-printer-user-guide/c-zt4x1-configuration/r-changing-printer-settings/r-zt4x1-user-menus/r-zt4x1-rfid-menu.html)
 
 </br>
 
 ## 10. テスト印刷・エンコード
-<hr>
 
 1. Zebra Setup Utilities for Windows（以降ZSU） を使用して適切な設定ファイルを送付する。
    ZSU > [プリンタツールを開く] > [設定] > [ファイルを送る] > "下記表のファイルを選択" > [送信]
