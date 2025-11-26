@@ -209,7 +209,7 @@ ZT421や詳細については下記リンクを参考にすること。
 - ラベルの通り道（リボン・PHDの下を通るように）
 
 詳細な手順は下記リンクを参考にすること。  
-[Inserting the Media into the Printer](https://docs.zebra.com/content/tcm/us/en/printers/industrial/zt411-zt421-industrial-printer-user-guide/printer-setup-/loading-the-media/inserting-the-media-into-the-printer.html)
+[プリンタへの用紙の挿入](https://docs.zebra.com/jp/ja/printers/industrial/zt411-zt421-industrial-printer-user-guide/c-zt4x1-setup/c-zt4x1-load-the-media/t-zt4x1-inserting-the-media-into-the-printer.html)
 
 </br>
 
