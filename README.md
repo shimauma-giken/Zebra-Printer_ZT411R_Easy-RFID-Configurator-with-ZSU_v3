@@ -73,7 +73,23 @@ _color: white
    | SET_TTGP.ZPL	| 設定用（熱転写、ギャップ）	| 
 
 </br>
-</br>
+
+### 「参考」ラベルとセンサー
+
+##### 連続紙・レシート
+  <img width=400 src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-media-continuous.svg/_jcr_content/renditions/original">
+  </br>
+
+  ##### ギャップ・ノッチ
+  <img width=400 src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt230/g-zt230-media-noncont-gaps.png/_jcr_content/renditions/original">
+  </br>
+
+  ##### 黒マーク
+  <img width=400 src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt230/g-zt230-media-noncont-blk-mrk.png/_jcr_content/renditions/original">
+  </br>
+    </br>
+
+
 
 ## 3. 印字圧力の調整　　
 <hr>
