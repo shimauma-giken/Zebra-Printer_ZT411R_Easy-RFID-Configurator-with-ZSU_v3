@@ -82,7 +82,7 @@ _color: white
 
 下記表を参考に印字圧力をラベル幅に合わせて調整する。</br>  *
 ZT421や詳細については下記リンクを参考にすること。  
-[Adjusting Printhead Pressure](https://docs.zebra.com/content/tcm/us/en/printers/industrial/zt411-zt421-industrial-printer-user-guide/printer-configuration-and-adjustment/adjusting-the-printhead-pressure.html)
+[印字ヘッド圧力の調整](https://docs.zebra.com/jp/ja/printers/industrial/zt411-zt421-industrial-printer-user-guide/c-zt4x1-configuration/r-zt4x1-adjust-the-printhead-pressure.html)
 
 
 
