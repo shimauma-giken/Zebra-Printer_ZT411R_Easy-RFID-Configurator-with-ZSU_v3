@@ -36,7 +36,7 @@ _color: white
 |-|-|-|
 | RFIDプリンタ| 最新ファームウェア推奨 | Silverlineラベル利用時は</br>ZT411R 1000mwモデルを使用すること。
 | RFIDラベル   |ID: 3.0"</br> OD: 8.0"
-| インクリボン | ID: 1.0" (300m or 450m) |[ZD621R スペック](https://www.zebra.com/jp/ja/products/spec-sheets/printers/desktop/zd600-series.html)</br>[ZD621R 技術仕様](https://partnerportal.zebra.com/content/dam/zebra_dam/en/tech-specs/zd621-tech-specs-en-us.pdf)
+| インクリボン | ID: 1.0" (300m or 450m) |[ZT411 スペック](https://www.zebra.com/jp/ja/products/spec-sheets/printers/industrial/zt400-series.html)</br>[ZT411 技術仕様](https://www.zebra.com/content/dam/zebra_dam/en/tech-specs/zt411-tech-specs-en-us.pdf)
 | USB ケーブル | PC<-->Printer 接続用
 | Windows PC   |下記ソフトウェアがインストール済みであること。</br>- [Zebra Setup Utilities for Windows](https://www.zebra.com/us/en/support-downloads/software/printer-software/printer-setup-utilities.html)</br>- [Zebra Designer 3 Professional](https://www.zebra.com/jp/ja/support-downloads/software/printer-software/zebra-designer-3-downloads.html)
 | 清掃キット | 不織布+ IPA 90%以上
