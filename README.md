@@ -313,7 +313,8 @@ ZT421や詳細については下記リンクを参考にすること。
 1. RFIDキャリブレーション中に用紙詰まりが発生していないか
 
 
-[参考：RFID メニュー](https://docs.zebra.com/jp/ja/printers/industrial/zt411-zt421-industrial-printer-user-guide/c-zt4x1-configuration/r-changing-printer-settings/r-zt4x1-user-menus/r-zt4x1-rfid-menu.html)
+<a href="https://docs.zebra.com/jp/ja/printers/industrial/zt411-zt421-industrial-printer-user-guide/c-zt4x1-configuration/r-changing-printer-settings/r-zt4x1-user-menus/r-zt4x1-rfid-menu.html" target="_blank">参考：RFID メニュー</a>
+
 
 </br>
 
