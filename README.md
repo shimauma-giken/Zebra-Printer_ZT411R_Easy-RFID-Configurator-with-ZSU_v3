@@ -77,15 +77,15 @@ _color: white
 ### 「参考」ラベルとセンサー
 
 ##### 連続紙・レシート
-  <img width=400 src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-media-continuous.svg/_jcr_content/renditions/original">
+  <img  src="picture-ZT411R-config/media_continous.png">
   </br>
 
   ##### ギャップ・ノッチ
-  <img width=400 src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt230/g-zt230-media-noncont-gaps.png/_jcr_content/renditions/original">
+  <img height="300" src="picture-ZT411R-config/media_gap-notch.png">
   </br>
 
   ##### 黒マーク
-  <img width=400 src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt230/g-zt230-media-noncont-blk-mrk.png/_jcr_content/renditions/original">
+  <img src="picture-ZT411R-config/media_black-mark.png">
   </br>
     </br>
 
@@ -140,9 +140,8 @@ ZT421や詳細については下記リンクを参考にすること。
 </br>
 
 ## 4. サプライの装填（リボン）
-<hr>
 
-![bg right:40% 80%](https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-ribbon_load_RTU_spndl.svg/jcr:content/renditions/original)
+<img src="picture-ZT411R-config/ZT411-ribbon-load.svg">
 
 </br>
 
@@ -261,16 +260,12 @@ ZT421や詳細については下記リンクを参考にすること。
   <thead>
     <tr>
       <th>センサーの稼働方法</th>
-      <th>センサー位置の確認方法</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
-        <img src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-media_sensor_closeup.svg/jcr:content/renditions/original" align="right" width="800%">
-      </td>
-      <td>
-        <img src="https://docs.zebra.com/content/dam/techpubs/media/printers/industrial/zt411-421/g-media_sensor_adjust_in.svg/jcr:content/renditions/original" align="right" width="100%">
+        <img src="image-1.png" align="right" width="100%">
       </td>
     </tr>
   </tbody>
